@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+option java_outer_classname = "Entities";
+option java_multiple_files = true;
+
+message App {
+    int32 id = 1;
+    string name = 2;
+    repeated Config configs = 3;
+}
+
+
+message Config {
+    int32 id = 1;
+    string name = 2;
+    map<string,string> data = 3;
+}
