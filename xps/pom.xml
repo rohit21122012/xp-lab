@@ -11,6 +11,8 @@
     <modules>
         <module>proto</module>
         <module>zk</module>
+        <module>lang</module>
+        <module>scylla</module>
     </modules>
     <properties>
         <curator-version>4.0.0</curator-version>
